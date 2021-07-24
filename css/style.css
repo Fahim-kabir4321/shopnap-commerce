@@ -1,0 +1,178 @@
+/* Roboto Poppins Inter Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Roboto:wght@500&display=swap");
+/* Utilities Or Common Style */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  font-family: "Poppins", sans-serif;
+  color: #1f1f1f;
+  font-weight: 700;
+}
+p {
+  color: #4e4e4e;
+}
+p,
+.btn-cust {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+.btn-cust {
+  color: #ffffff;
+  font-weight: 500;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+.btn-hover:hover {
+  background: linear-gradient(152.21deg, #ff9c35 5.44%, #ffd019 74.76%);
+  color: #ff136f;
+}
+.card-btn-hover:hover {
+  border-color: #000000;
+  background-color: #ffffff;
+  color: #000000;
+}
+input,
+.btn-cust:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+input[type="email"]:focus {
+  border-color: #ff136f;
+}
+a {
+  text-decoration: none;
+}
+.radius {
+  border-radius: 1rem;
+}
+.section-title {
+  color: #1f1f1f;
+  font-size: 36px;
+  font-weight: 600;
+}
+.bg-banner,
+.f-bg {
+  background-color: #feeae9;
+}
+.card-price {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+}
+.card-b {
+  background-color: #000000;
+}
+.s-a {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ff9d00;
+}
+.s-a:hover {
+  color: #ff9d00;
+}
+.card-title-d {
+  font-size: 24px;
+  color: #1f1f1f;
+  font-weight: 600;
+}
+/* Menu Area Start */
+nav{
+  background: #feeae9fa;
+}
+.brand-logo {
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+}
+.navbar-nav .nav-item .nav-link{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #707070;
+  transition: 0.5s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+  color: #ff136f;
+}
+/* Menu Area End */
+/* Banner Area Start */
+.banner-area {
+  margin-top: 7rem;
+}
+.carousel-title {
+  font-size: 56px;
+}
+.price {
+  font-size: 41px;
+  font-weight: 500;
+  color: #ff136f;
+}
+.b-b {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+}
+.b-img {
+  width: 402px;
+  height: 278px;
+}
+.img-fit {
+  object-fit: contain;
+}
+/* Banner Area End */
+/* categories Area Start */
+.categori-title {
+  font-size: 36px;
+}
+.cat-img {
+  width: 100px;
+  height: 100px;
+}
+.cat-img img {
+  object-fit: contain;
+}
+.cat-bg-1 {
+  background: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
+}
+.cat-bg-2 {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+}
+.cat-bg-3 {
+  background: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
+}
+/* categories Area End */
+/* Shoes Or Backpack Area Start */
+.shoes,
+.backpack {
+  background-color: #f4f4f4;
+}
+/* Shoes Or Backpack Area End */
+/* Footer Area Start */
+.content {
+  max-width: 650px;
+}
+.content > .section-title {
+  font-size: 30px;
+}
+.content > p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #707070;
+}
+.f-btn-b-r {
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+/* Footer Area End */
+/* Media Queary Start */
+@media only screen and (max-width: 576px) {
+  .hed {
+    font-size: 1.3rem;
+  }
+  .pra {
+    font-size: 14px;
+  }
+}
+/* Media Queary End */
